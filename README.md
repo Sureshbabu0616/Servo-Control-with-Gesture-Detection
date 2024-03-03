@@ -1,4 +1,4 @@
-# Hand Detection and Control with Arduino
+# Servo-Control-with-Gesture-Detection
 
 This project combines hand detection using OpenCV and MediaPipe with servo motor control using Arduino. It allows you to control a servo motor based on the position of your hand detected by a webcam.
 
@@ -13,7 +13,7 @@ This project combines hand detection using OpenCV and MediaPipe with servo motor
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/your-username/hand-detection-and-control.git
+git clone https://github.com/Sureshbabu0616/Servo-Control-with-Gesture-Detection
 
 markdown
 Copy code
@@ -46,15 +46,11 @@ Copy code
 
 ## Arduino Code
 
-The Arduino code (`arduino_servo_control.ino`) reads incoming servo angles from the Python script via serial communication and sets the position of the servo motor accordingly.
+The Arduino code (`sketch_mar3a.ino`) reads incoming servo angles from the Python script via serial communication and sets the position of the servo motor accordingly.
 
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
